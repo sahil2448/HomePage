@@ -1,0 +1,180 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+.lgMain{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    gap: 1rem;
+}
+.logo img{
+    width: 70px;;
+}
+.text{
+    line-height: 1.6rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.745) ;
+    color: white;
+    align-items: center;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+}
+.navLinks {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 7rem;
+    margin-right: 3rem;
+    list-style: none;
+    font-size:large;  
+}
+.navLinks a{
+    text-decoration: none;
+    transition:0.1s;
+}
+.navLinks a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 6px;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+#ss{
+    background: linear-gradient(to right, #0062ff, #d633ff); /* Gradient from blue to purple */
+    color: white;
+    border: none;
+    border-radius: 50px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: sans-serif;
+}
+#ss:hover{
+    transform: scale(1.05);
+    
+}
+
+.Home{
+    height: 110vh;
+    background-image: url("./Images/image 2.png");
+    background-size:cover;
+}
+.header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    position: absolute;
+    top: 27rem;
+
+}
+.header h2{
+    color: #fff;
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 68px;
+    font-weight: 400;
+}
+.header h2 span{
+    text-decoration: underline 5px;
+    text-underline-offset: 15px;
+}
+
+.slogan{
+    margin-left: 1rem;
+    font-size: 30px;
+    padding-left: 100px;
+    color: #fff;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+}
+.page2{
+    height: 180vh;
+    width: 100%;
+    position: absolute;
+    top: 70;
+    background-image: url("./Images/our vision (1).png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.divs{
+    margin-top: 8rem;
+    display: flex;
+    background-image: url("./Images/Group 559.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background-size: cover; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 3rem;
+}
+.div1{
+    width: 26.375rem;
+    height: 10.375rem;
+
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 30px rgb(158, 153, 153);
+    /* background-color: white; */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+#div1{
+    margin-right: 10rem;
+}
+#div2{
+    margin-left: 10rem;
+}
+#div3{
+    margin-right: 20rem;
+}
+#div4{
+    /* margin-right: 5rem; */
+}
+.div1 h3{
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: 150%;
+}
+.div1 p{
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: 100%;
+}
+.alone{
+    width: 40.375rem;
+    height: 9.375rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 2px 2px 30px rgb(158, 153, 153);
+    background-color: white;
+    opacity: 0.9;
+}
+.alone h3{
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: 170%;
+}
+.alone p{
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: 110%;
+
+}
