@@ -100,7 +100,6 @@
     transition: 0.4s;
 }
 .guests img:hover{
-    /* background-color: rgb(63, 5, 117); */
     opacity: 0.7;
     scale: 1.03;
 }
@@ -124,10 +123,8 @@
 
 }
 .guests .imgContainer:hover{
-    /* border: 1px solid white; */
     border-radius: 10px;
     padding: 10px;
-    /* background-color: rgb(124, 25, 170); */
     background-color: #BD01ff66;
 }
 .blank{

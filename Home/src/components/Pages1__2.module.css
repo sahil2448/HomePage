@@ -28,7 +28,6 @@ body{
 }
 .navLinks {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 7rem;
     margin-right: 3rem;
@@ -55,9 +54,11 @@ body{
     cursor: pointer;
     transition: 0.3s;
     font-family: sans-serif;
+    
 }
 #ss:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
+    background: linear-gradient(to right, #d633ff, #0062ff);
     
 }
 
@@ -130,8 +131,7 @@ body{
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 2px 2px 30px rgb(158, 153, 153);
-    /* background-color: white; */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    -webkit-backdrop-filter: blur(10px); 
     backdrop-filter: blur(10px);
     z-index: 1;
 }
@@ -144,9 +144,7 @@ body{
 #div3{
     margin-right: 20rem;
 }
-#div4{
-    /* margin-right: 5rem; */
-}
+
 .div1 h3{
     margin-top: 0px;
     font-weight: lighter;
