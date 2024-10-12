@@ -30,10 +30,10 @@ body{
 .navLinks {
     display: flex;
     align-items: center;
-    gap: 7rem;
+    gap: 8rem;
     margin-right: 3rem;
     list-style: none;
-    font-size:large;  
+    font-size:20px;  
 }
 .navLinks a{
     text-decoration: none;
@@ -51,16 +51,20 @@ body{
     border: none;
     border-radius: 50px; /* Rounded corners */
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     transition: 0.3s;
     font-family: sans-serif;
+
     
 }
 #ss:hover{
     /* transform: scale(1.03); */
     background: linear-gradient(to right, #d633ff, #0062ff);
     
+}
+.text p{
+    font-size: larger;
 }
 
 .Home{
