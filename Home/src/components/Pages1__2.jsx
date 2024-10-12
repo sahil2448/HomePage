@@ -9,6 +9,7 @@ const Pages1__2 = () => {
             <a className={styles.logo}>
               <img src="./Images/Group 1.png" alt="Image" />
             </a>
+
             <div className={styles.text}>
               <p>
                 National Service Scheme <br /> IIT ROORKEE

@@ -73,10 +73,10 @@ const Pages3__6 = () => {
             <img src="./images/g4.png" alt="" />
             <p>Sonam Wangch</p>
           </div>
-          {/* <div className={styles.imgContainer}>
+          <div className={styles.imgContainer}>
             <img src="./images/g1.png" alt="" />
             <p>Prakhar singh dhami</p>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className={styles.blank}></div>
